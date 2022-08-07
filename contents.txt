@@ -12,5 +12,6 @@
 12.Hash Tables(Chaining)
 13.Binomial Heaps 
 14.Binary_Search_Trees
-15.Red Black Trees 
-16.AVL Trees 
+15.Red Black Trees (Balanced BST)
+16.AVL Trees (Balanced BST)
+17. Treaps (Balanced BST)(BST + Heap)

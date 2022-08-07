@@ -25,7 +25,6 @@ class AVLTree{
         Node* root,*nil;
         
         AVLTree(){
-            this->root=NULL;
             this->nil=new Node();
             this->nil->height=0;
             this->nil->left=NULL;

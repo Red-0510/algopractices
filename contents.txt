@@ -1,0 +1,16 @@
+1.Insertion sort
+2.Merge Sort
+3.MaxSumSubarray
+4.Kadane algorithm for maxSumSubarray problem
+5.Heap structure using arrays (HEAPSORT included)
+6.QuickSort
+7.CountingSort
+8.RadixSort
+9.BucketSort
+10.Order_statictics(Median of Median)
+11.Linked Lists
+12.Hash Tables(Chaining)
+13.Binomial Heaps 
+14.Binary_Search_Trees
+15.Red Black Trees 
+16.AVL Trees 

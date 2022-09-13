@@ -15,3 +15,8 @@
 15.Red Black Trees (Balanced BST)
 16.AVL Trees (Balanced BST)
 17. Treaps (Balanced BST)(BST + Heap)
+
+
+Extra:
+    1- exponentiation: binary exponentiation, binary multiplication(fast), matrix exponentiation, solving recurrences
+    2-subsets- backtracking and recursion

@@ -17,7 +17,7 @@ void merge_sort(int arr[],int p,int r){
     }
 }
 void merge(int arr[],int p,int q,int r){
-    cout<<p<<q<<r<<"\n";
+    // cout<<p<<q<<r<<"\n";
     int n1=q-p+1;
     int n2=r-q;
     int L[n1];

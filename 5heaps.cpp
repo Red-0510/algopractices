@@ -84,6 +84,7 @@ void printarr(vector<int> &a){
     cout<<"\n";
 }
 int main(){
+    freopen("output.txt","w",stdout);
     vector<int> a={5,6,3,7,2,8};
     int s=a.size();
     // BUILD_MAX_HEAP(a,s);

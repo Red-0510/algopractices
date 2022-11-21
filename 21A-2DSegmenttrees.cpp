@@ -15,6 +15,9 @@ using namespace std;
 #define F first
 #define S second 
 
+// build: O(n*logn*logm)
+// query: O(logn*logm)
+// Point update: O(logn*logm)
 struct SegmentTree2D{
     int n,m;
     vector<vector<ll>> container;

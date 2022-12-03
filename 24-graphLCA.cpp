@@ -81,7 +81,7 @@ vector<int> g[N];
 // }
 
 
-// LCA queries in O(1) using sparse Tables
+// LCA queries in O(1) using eular tour sparse Tables
 int dep[N]={0};
 int start[N]={0};
 struct sparseTable{

@@ -20,7 +20,7 @@ using namespace std;
 // 7) HEAP_DELETE(array,n,index)  deletes the node at index i and maintains 
 //                                maintains heap property                   O(logn)                              
 
-void printarr(vector<int>&, int);
+void printarr(vector<int>&);
 void MAX_HEAPIFY(vector<int>& a,int i,int n){
     int l=2*i+1;
     int r=2*i+2;
@@ -85,20 +85,21 @@ void printarr(vector<int> &a){
 }
 int main(){
     freopen("output.txt","w",stdout);
-    vector<int> a={5,6,3,7,2,8};
+    vector<int> a={5,4,-1,2,4,10,1};
     int s=a.size();
     // BUILD_MAX_HEAP(a,s);
     // for(int i=0;i<s;i++){
     //     cout<<HEAP_EXTRACT_MAX(a,s-i)<<" ";
     // }
-    // HEAPSORT(a,s);
+    HEAPSORT(a,s);
+    printarr(a);
     // HEAP_EXTRACT_MAX(a,s);
-    BUILD_MAX_HEAP(a,s);
-    printarr(a);
-    MAX_HEAP_INSERT(a,s,12);
-    // HEAP_INCREASE_KEY(a,s,3,10);
-    printarr(a);
-    HEAP_DELETE(a,a.size(),3);
-    printarr(a);
+    // BUILD_MAX_HEAP(a,s);
+    // printarr(a);
+    // MAX_HEAP_INSERT(a,s,12);
+    // // HEAP_INCREASE_KEY(a,s,3,10);
+    // printarr(a);
+    // HEAP_DELETE(a,a.size(),3);
+    // printarr(a);
     return 0;
 }
